@@ -1,5 +1,5 @@
 body {
-  font-family: "Raleway", sans-serif;
+  font-family: "Monrope", sans-serif;
 }
 
 h1 {
@@ -103,7 +103,6 @@ h4 {
   margin: 0 auto;
   box-sizing: border-box;
 
-  margin-bottom: 150px;
 }
 .see__all__projects {
   display: block;
