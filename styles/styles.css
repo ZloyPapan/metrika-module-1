@@ -129,6 +129,7 @@ h4 {
   color: white;
 }
 .section_black {
+  position: relative;
   margin: 0 auto;
   width: 1400px;
   height: 1844px;
