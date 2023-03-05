@@ -1,5 +1,6 @@
 body {
   font-family: "Manrope", sans-serif;
+  background: #F5F5F5;
 }
 
 h1 {
@@ -47,10 +48,10 @@ h2 {
   margin-bottom: 150px;
 }
 .grey-armchair-text {
-  color: #8f1717;
+  color: #ffffff;
   position: absolute;
   width: 430px;
-  /* height: 81px; */
+  height: 81px;
   left: 40px;
   bottom: 40px;
   font-weight: 400;
