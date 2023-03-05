@@ -47,10 +47,10 @@ h2 {
   margin-bottom: 150px;
 }
 .grey-armchair-text {
-  color: #ffffff;
+  color: #8f1717;
   position: absolute;
   width: 430px;
-  height: 81px;
+  /* height: 81px; */
   left: 40px;
   bottom: 40px;
   font-weight: 400;
