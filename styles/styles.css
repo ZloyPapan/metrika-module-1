@@ -15,14 +15,14 @@ h1 {
   margin-bottom: 30px;
   margin-top: 128px;
 }
-p {
+/* p {
   height: 366px;
   width: 1048px;
   font-weight: 400;
   font-size: 20px;
   line-height: 27px;
   letter-spacing: -0.03em;
-}
+} */
 h2 {
   font-size: 18px;
   font-weight: 400;
@@ -51,7 +51,7 @@ h2 {
   color: #ffffff;
   position: absolute;
   width: 430px;
-  height: 81px;
+  
   left: 40px;
   bottom: 40px;
   font-weight: 400;
