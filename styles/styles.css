@@ -4,16 +4,24 @@ html {
 
 body {
   font-family: "Manrope", sans-serif;
-  background: #F5F5F5;
+  background: #f5f5f5;
 }
 
-.header {
-  padding-top: 33px 125px 0 125px;
-  width: 1151px;
-  height: 25px;
+header {
+  padding: 33px 125px 0 125px;
+  width: 1400px;
+  margin: 0 auto;
+  margin-top: 33px;
 }
 
-.nav {
+footer {
+  width: 100%;
+  height: 229px;
+  background-color: #121212;
+  padding: 60px 0 30px 0;
+}
+
+nav {
   float: right;
 }
 
@@ -30,7 +38,7 @@ body {
 
 .nav__link:hover {
   opacity: 0.5;
-  border-bottom: 1px solid rgba(0, 0 , 0, 0.5);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.5);
 }
 
 h1 {
@@ -77,7 +85,7 @@ h2 {
   color: #ffffff;
   position: absolute;
   width: 430px;
-  
+
   left: 40px;
   bottom: 40px;
   font-weight: 400;
@@ -178,7 +186,7 @@ h3 {
 }
 
 .section_black {
-  position: relative;
+  /* position: relative; */
   width: 100%;
   height: 1844px;
 
@@ -190,11 +198,10 @@ h3 {
 }
 
 .services_list {
-  position: absolute;
+  padding-top: 151px;
   margin: 0 auto;
   width: 1150px;
   top: 151px;
-  left: 125px;
 }
 
 .block_in_black {
@@ -202,18 +209,18 @@ h3 {
 }
 
 .projectforest {
+  background-image: url('/resources/projectforest.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
   position: relative;
   width: 100%;
   height: 717px;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: 50%;
-  background: linear-gradient(
+  /* background: linear-gradient(
       180deg,
       rgba(0, 0, 0, 0) 0.52%,
       rgba(0, 0, 0, 0.4) 82.81%
-    ),
-    url('/resources/projectforest.png');
+    ),url('/resources/projectforest.png'); */
 }
 
 .projectforest-text {
@@ -228,47 +235,86 @@ h3 {
   letter-spacing: -0.03em;
   color: #ffffff;
 }
+.contactfield {
+  width: 100%;
+  height: 553px;
+}
 
 .contacts {
-  
+  margin-top: 186px;
+  margin-left: 124px;
+  width: 473px;
+  height: 217px;
 }
+
 .contacts:before {
   content: "";
-  background-image: url('/resources/phone.png');
+  background-image: url("/resources/phone.png");
   display: block;
   width: 24px;
   height: 24px;
-  border: solid red;
 }
+
 .contact {
   font-size: 18px;
-line-height: 25px;
-
-letter-spacing: -0.03em;
-text-transform: uppercase;
-
-color: #121212;
+  line-height: 25px;
+  letter-spacing: -0.03em;
+  text-transform: uppercase;
+  color: #121212;
 }
+
 .phone {
   font-size: 60px;
   line-height: 60px;
   margin-top: 32px;
   text-decoration: none;
-
   letter-spacing: -0.03em;
-
-
   color: #121212;
 }
 .mail {
   font-size: 60px;
   line-height: 60px;
   margin-top: 30px;
+  text-decoration: none;
+  border-bottom: 4px solid rgba(0, 0, 0, 0.5);
+  letter-spacing: -0.03em;
+  color: #121212;
+  opacity: 0.5;
+}
 
+.footer__title {
+  margin-top: 87px;
+  text-align: center;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 27px;
   letter-spacing: -0.03em;
 
-
-  color: #121212;
+  color: #ffffff;
 
   opacity: 0.5;
+}
+
+.footernav {
+  width: 450px;
+  margin: auto;
+}
+
+.footernav__link {
+  margin-left: 46px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 25px;
+  text-align: left;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.footernav__link:first-child {
+  margin: 0;
+}
+
+.footernav__link:hover {
+  opacity: 0.5;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.5);
 }
