@@ -8,10 +8,10 @@ body {
 }
 
 header {
-  padding: 33px 125px 0 125px;
+  padding: 22px 125px 0 125px;
   width: 1400px;
   margin: 0 auto;
-  margin-top: 33px;
+  margin-top: 10px;
 }
 
 footer {
@@ -26,7 +26,7 @@ nav {
 }
 
 .nav__link {
-  margin-left: 60px;
+  margin-left: 57px;
   font-weight: 400;
   font-size: 18px;
   line-height: 25px;
@@ -34,6 +34,7 @@ nav {
   text-transform: uppercase;
   text-decoration: none;
   color: #121212;
+  letter-spacing: -0.03em;
 }
 
 .nav__link:hover {
@@ -51,14 +52,14 @@ h1 {
   font-weight: 400;
 
   margin-bottom: 30px;
-  margin-top: 128px;
+  margin-top: 72px;
 }
 
 h2 {
   font-size: 18px;
   font-weight: 400;
   line-height: 25px;
-
+  letter-spacing: -0.03em;
   margin-bottom: 30px;
 }
 
@@ -106,7 +107,7 @@ h2 {
   text-align: center;
   text-decoration: none;
   font-size: 20px;
-
+  letter-spacing: -0.03em;
   cursor: pointer;
 }
 
@@ -128,12 +129,12 @@ h2 {
 }
 
 h3 {
-  margin-top: 15px;
+  margin-top: 12px;
 
   font-weight: 400;
   font-size: 30px;
   line-height: 41px;
-
+  letter-spacing: -0.03em;
   color: #121212;
 }
 
@@ -142,7 +143,7 @@ h3 {
 
   font-weight: 400;
   font-size: 20px;
-  line-height: 27px;
+  line-height: 55px;
   letter-spacing: -0.03em;
   text-decoration: none;
 
@@ -150,7 +151,7 @@ h3 {
 }
 
 .project__description {
-  margin-bottom: 90px;
+  margin-bottom: 77px;
 }
 
 .project {
@@ -198,7 +199,7 @@ h3 {
 }
 
 .services_list {
-  padding-top: 151px;
+  padding-top: 157px;
   margin: 0 auto;
   width: 1150px;
   top: 151px;
@@ -276,8 +277,8 @@ h3 {
 }
 
 .phone {
-  font-size: 60px;
-  line-height: 60px;
+  font-size: 62px;
+  line-height: 62px;
   text-decoration: none;
   letter-spacing: -0.03em;
   color: #121212;
@@ -287,18 +288,17 @@ h3 {
 }
 .mail {
   font-size: 60px;
-  line-height: 60px;
+  line-height: 57px;
   margin-top: 30px;
-  margin-bottom: -2;
   text-decoration: none;
-  border-bottom: 4px solid rgba(0, 0, 0, 0.5);
+  border-bottom: 3px solid rgba(0, 0, 0, 0.5);
   letter-spacing: -0.03em;
   color: #121212;
   opacity: 0.5;
 }
 
 .footer__title {
-  margin-top: 87px;
+  margin-top: 112px;
   text-align: center;
   font-weight: 400;
   font-size: 20px;
@@ -316,7 +316,7 @@ h3 {
 }
 
 .footernav__link {
-  margin-left: 46px;
+  margin-left: 47px;
   font-size: 18px;
   font-weight: 400;
   line-height: 25px;
