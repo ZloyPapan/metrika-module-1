@@ -209,7 +209,7 @@ h3 {
 }
 
 .projectforest {
-  background-image: url('/resources/projectforest.png');
+  background-image: url('../resources/projectforest.png');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 50% 50%;
@@ -220,7 +220,7 @@ h3 {
       180deg,
       rgba(0, 0, 0, 0) 0.52%,
       rgba(0, 0, 0, 0.4) 82.81%
-    ),url('/resources/projectforest.png'); */
+    ),url('../resources/projectforest.png'); */
 }
 
 .projectforest-text {
@@ -249,7 +249,7 @@ h3 {
 
 .contacts:before {
   content: "";
-  background-image: url("/resources/phone.png");
+  background-image: url("../resources/phone.png");
   display: block;
   width: 24px;
   height: 24px;
